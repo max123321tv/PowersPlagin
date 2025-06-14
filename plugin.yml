@@ -1,0 +1,15 @@
+name: PowerPlugin
+version: 1.6
+main: me.max.power.PowerPlugin
+description: Плагин способностей для игроков.
+author: max
+api-version: 1.21
+commands:
+  power:
+    description: Выбрать способность.
+  test:
+    description: "Тестовая команда для новых функций"
+    usage: "/test illusoryOres <время> <x> <y> <z>"
+    usage: "/test me"
+    permission: test.use
+    aliases: [t]
